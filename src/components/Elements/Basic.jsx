@@ -21,9 +21,7 @@ const Basic = ({ title, start, end, style, classes, dataSet, tooltip }) => (
       <span className="rt-element__title">{title}</span>
     </div>
     {tooltip && (
-        <div className="rt-element__tooltip">
-          {tooltip}
-        </div>
+        {tooltip}
     )}
     {/* <div className="rt-element__tooltip">
       {tooltip ? (
